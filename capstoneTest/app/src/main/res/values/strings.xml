@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">capstoneTest</string>
+    <string name="example">This is a example</string>
+    <string name="Button">Button</string>
+    <string name="test">Test</string>
+    <string name="RB">Rice Blast Possibility: </string>
+    <string name="BS">Brown Spot Possibility: </string>
+    <string name="notice">Please use or take a photo with a white background and fill the photo with one leaf just like the sample image</string>
+    <string name="q1">Question 1: Please select your planting date</string>
+    <string name="bt_select">select</string>
+    <string name="date">Date</string>
+    <string name="bt_next">next</string>
+    <string name="q2">Question 2: Please select the type of rice</string>
+    <string name="ricevariety">Rice Variety</string>
+    <string name="q3">Question 3: Please enter the seeding rate</string>
+    <string name="seedrate">Seeding rate</string>
+    <string name="number">Number</string>
+    <string name="q4">Question 4: Please select the type of nitrogen fertilizer</string>
+    <string name="nittype">Nitrogen fertiliser type</string>
+    <string name="q5">Question 5: Please enter the nitrogen fertilizer amount</string>
+    <string name="nitamount">Nitrogen fertiliser amount</string>
+    <string name="bt_done">done</string>
+    <string name="q1_a">1. Location</string>
+    <string name="q1_b">Location</string>
+    <string name="q2_a">2. Weather</string>
+    <string name="q3_a">3. Planting Date</string>
+    <string name="q3_b">Planting Date</string>
+    <string name="q4_a">4. Rice Variety</string>
+    <string name="q4_b">Rice Variety</string>
+    <string name="q5_a">5. Rice Seeding Rate</string>
+    <string name="q5_b">Rice Seeding Rate</string>
+    <string name="q6_a">6. Nitrogen Fertiliser Variety</string>
+    <string name="q6_b">Nitrogen Fertiliser Variety</string>
+    <string name="q7_a">7. Nitrogen Fertiliser Amount</string>
+    <string name="q7_b">Nitrogen Fertiliser Amount</string>
+    <string name="a0">The answer to the disease forecasting is:</string>
+    <string name="a1">Risk Result</string>
+
+
+    <string-array name="kindofrice">
+        <item>Choose the rice variety</item>
+        <item>Sen Kraob</item>
+        <item>Phka Rumdoul</item>
+        <item>Phka Malis</item>
+        <item>Ka Nhei</item>
+        <item>OM</item>
+        <item>Srangae</item>
+    </string-array>
+
+
+    <string-array name="nitrogentype">
+        <item>Choose the nitrogen fertiliser type</item>
+        <item>Urea</item>
+        <item>DAP</item>
+        <item>NPK</item>
+    </string-array>
+</resources>

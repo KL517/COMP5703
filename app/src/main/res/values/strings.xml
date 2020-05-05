@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">capstoneTest</string>
+    <string name="example">This is a example</string>
+    <string name="Button">Button</string>
+    <string name="test">Test</string>
+    <string name="RB">Rice Blast Possibility: </string>
+    <string name="BS">Brown Spot Possibility: </string>
+    <string name="notice">Notice: use or take a photo with a white background just like the sample image</string>
+    <string name="q1">Select your planting date</string>
+    <string name="bt_select">select</string>
+    <string name="date">Date</string>
+    <string name="bt_next">next</string>
+    <string name="q2">Select the type of rice</string>
+    <string name="ricevariety">Rice Variety</string>
+    <string name="q3">Enter the seeding rate</string>
+    <string name="seedrate">Seeding rate</string>
+    <string name="number">Number</string>
+    <string name="q4">Select the type of nitrogen fertilizer</string>
+    <string name="nittype">Nitrogen fertiliser type</string>
+    <string name="q5">Enter the nitrogen fertilizer amount</string>
+    <string name="nitamount">Nitrogen fertiliser amount</string>
+    <string name="bt_done">done</string>
+    <string name="a0">The answer to the disease forecasting is:</string>
+    <string name="a1">Risk Result</string>
+
+    <string name="forecastText">Disease Forecasting</string>
+    <string name="healthText">Are crops healthy?</string>
+    <string name="otherText">Disease Scoring</string>
+
+
+    <string-array name="kindofrice">
+        <item>Choose the rice variety</item>
+        <item>Sen Kraob</item>
+        <item>Phka Rumdoul</item>
+        <item>Phka Malis</item>
+        <item>Ka Nhei</item>
+        <item>OM</item>
+        <item>Srangae</item>
+    </string-array>
+
+
+    <string-array name="nitrogentype">
+        <item>Choose the nitrogen fertiliser type</item>
+        <item>Urea</item>
+        <item>DAP</item>
+        <item>NPK</item>
+    </string-array>
+</resources>

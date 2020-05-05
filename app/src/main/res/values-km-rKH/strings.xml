@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">អត្ថបទ</string>
+    <string name="example">
+នេះជាឧទាហរណ៍</string>
+    <string name="Button">ប៊ូតុង</string>
+    <string name="test">អត្ថបទ</string>
+    <string name="RB">លទ្ធភាពនៃការផ្ទុះអង្ករ </string>
+    <string name="BS">
+លទ្ធភាពទទួលបានពណ៌ត្នោត </string>
+    <string name="notice">សម្គាល់ៈប្រើឬថតរូបជាមួយផ្ទៃខាងក្រោយពណ៌សដូចរូបភាពគំរូ</string>
+    <string name="q1">ជ្រើសរើសកាលបរិច្ឆេទដាំរបស់អ្នក</string>
+    <string name="bt_select">ជ្រើសរើស</string>
+    <string name="date">កាលបរិច្ឆេទ</string>
+    <string name="bt_next">បន្ទាប់</string>
+    <string name="q2">
+ជ្រើសរើសប្រភេទអង្ករ</string>
+    <string name="ricevariety">ពូជស្រូវ</string>
+    <string name="q3">បញ្ចូលអត្រានៃការបណ្ដុះះ</string>
+    <string name="seedrate">អត្រានៃការបណ្តុះ</string>
+    <string name="number">ចំនួន</string>
+    <string name="q4">ជ្រើសរើសប្រភេទជីអាសូត</string>
+    <string name="nittype">ប្រភេទជីអាសូត</string>
+    <string name="q5">បញ្ចូលបរិមាណជីអាសូតត</string>
+    <string name="nitamount">បរិមាណជីអាសូត</string>
+    <string name="bt_done">រួចរាល់</string>
+    <string name="a0">ចម្លើយចំពោះការព្យាករណ៍ជំងឺគឺ:</string>
+    <string name="a1">លទ្ធផលហានិភ័យ</string>
+
+    <string name="forecastText">ការព្យាករណ៍ជំងឺ</string>
+    <string name="healthText">តើដំណាំមានសុខភាពល្អ?</string>
+    <string name="otherText">ការដាក់ពិន្ទុលើជំងឺ</string>
+
+
+    <string-array name="kindofrice">
+        <item>ជ្រើសរើសពូជស្រូវ</item>
+        <item>សែនក្រោប</item>
+        <item>ភររំដួល</item>
+        <item>Phka Malis</item>
+        <item>កាញី</item>
+        <item>អូ</item>
+        <item>ស្រង៉ែ</item>
+    </string-array>
+
+    <string-array name="nitrogentype">
+        <item>ជ្រើសរើសប្រភេទជីអាសូត</item>
+        <item>ជអ៊ុយ</item>
+        <item>ឌីភី</item>
+        <item>អិនខេខេ</item>
+    </string-array>
+</resources>

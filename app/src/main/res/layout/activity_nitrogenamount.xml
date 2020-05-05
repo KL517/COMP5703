@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NitrogenAmount">
+
+    <TextView
+        android:id="@+id/tx_q5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/q5"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx_q5_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_q5"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/nitamount"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+
+        android:id="@+id/sound"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/ic_volume_up_black_24dp"
+        android:contentDescription="avatar" />
+    <EditText
+        android:id="@+id/nitnumber"
+        android:hint="0 - 500"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_q5_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="60dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bt_tick"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_q5_2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/nitnumber"
+        android:text="√" />
+
+    <TextView
+        android:id="@+id/tx_q5_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nitnumber"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/number"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx_q5_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nitnumber"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/tx_q5_value"
+        android:text="kg/ha"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sound_done"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/ic_volume_up_black_24dp"
+        android:contentDescription="avatar" />
+
+    <Button
+        android:id="@+id/bt_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="540dp"
+        android:text="@string/bt_done" />
+
+</RelativeLayout>
